@@ -2,14 +2,14 @@
 
 The primary issue with traditional hashing methods :-
 
-When a node is added or removed, most of the keys need to be rehashed and redistributed.
-If Let Suppose :-
-There are 3 Nodes
-Shreyansh is came to Load Balancer as id
-According to hash method it saved in Node 2
-Now One More Node Added
-Now h(Shreyansh)%4 will give different Node , say Node 3
-But our data is saved in Node 2.
+When a node is added or removed, most of the keys need to be rehashed and redistributed.  
+If Let Suppose :-  
+There are 3 Nodes  
+Shreyansh is came to Load Balancer as id  
+According to hash method it saved in Node 2  
+Now One More Node Added  
+Now h(Shreyansh)%4 will give different Node , say Node 3  
+But our data is saved in Node 2.  
 
 ![cascading failure](https://github.com/user-attachments/assets/9a437285-db7e-4829-ba98-045419c2bd4e)
 
