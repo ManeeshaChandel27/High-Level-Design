@@ -71,5 +71,6 @@ An **app server cache** might struggle to handle a **high-traffic global event**
 
 ---
 
+
 ### **Conclusion**
 For high-profile, high-traffic events like a cricket match, a **global cache** is essential to handle scalability, consistency, and low-latency requirements effectively. App server caches, while useful in smaller or less distributed setups, are not sufficient for the demands of such large-scale, real-time scenarios.
